@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Website Title will go here</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link href="css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="css/styles.min.css" rel="stylesheet"/><!-- Flashdevelop compile style.css into minified version -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"><!--Fontawesome css used in navbar-->
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'><!-- Google fonts css -->
+	
+</head>
+<body>
+	<!-- navbar background using .transparent class -->
+<nav class="navbar transparent navbar-inverse navbar-fixed-top" role="navigation">
+	<div class="container">
+		<a href="#" class="navbar-brand">Site Title</a>
+		<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<div class="collapse navbar-collapse navHeaderCollapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+				<li><a href="#"><i class="fa fa-info"></i> About Us</a></li>
+				<li><a href="#"><i class="fa fa-users"></i> Team</a></li>
+				<li><a href="#"><i class="fa fa-trophy"></i> Projects</a></li>				
+				<li><a href="#contact" data-toggle="modal"><i class="fa fa-map-marker"></i> Contact Us</a></li>
+				
+			</ul>
+		</div>
+	</div>
+	
+</nav>
+
+<!-- Jumbotron unit -->
+
+<div class="jumbotron">
+		<h1>Jumbotron is full width if not used inside container!!!</h1>
+		<p>I don’t see it as a limitation. The six-second rule forces me to think outside the box. It also gets me to be creative. The short length motivates me to try make my videos loop perfectly. Also, I don't think I would have started creating stop-motions if they had to be longer than six seconds. Each one would take way too much time.</p>		
+		<a href="#" class="centered btn btn-default ">Check Out Now</a>
+		<a href="#" class="centered btn btn-info ">Click here</a>
+		
+</div>
+
+<!-- grid content -->
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-9">
+			<h3><a href="#">Another chunk of code</a></h3>
+			<p>The fixed navbar will overlay your other content, unless you add padding to the top of the. Try out your own values or use our snippet below. Tip: By default, the navbar is 50px high.</p>
+			<a href="#" class="btn btn-danger">Read More</a>
+		</div>
+		
+		<div class="col-md-3">
+			<h3><a href="#">Side bar kind of</a></h3>
+			<p>The fixed navbar will overlay your other content, unless you add padding to the top of the. Try out your own values or use our snippet below. Tip: By default, the navbar is 50px high.</p>
+			<a href="#" class="btn btn-danger pull-right">Read More</a>
+		</div>
+		
+		<div class="col-md-3">
+			<h3><a href="#">Heading of block</a></h3><span class="glyphicon glyphicon-search"></span>
+			<p>The fixed navbar will overlay your other content, unless you add padding to the top of the. Try out your own values or use our snippet below. Tip: By default, the navbar is 50px high.</p>
+			<a href="#" class="btn btn-danger">Read More</a>
+		</div>
+		
+		<div class="col-md-3">
+			<h3><a href="#">Heading of block</a></h3>
+			<p>The fixed navbar will overlay your other content, unless you add padding to the top of the. Try out your own values or use our snippet below. Tip: By default, the navbar is 50px high.</p>
+			<a href="#" class="btn btn-danger pull-right">Read More</a>
+		</div>
+		
+		<div class="col-md-3">
+			<h3><a href="#">Heading of block</a></h3>
+			<p>The fixed navbar will overlay your other content, unless you add padding to the top of the. Try out your own values or use our snippet below. Tip: By default, the navbar is 50px high.</p>
+			<a href="#" class="btn btn-danger pull-right">Read More</a>
+		</div>
+		<div class="col-md-3">
+			<h3><a href="#">Heading of block</a></h3>
+			<p>The fixed navbar will overlay your other content, unless you add padding to the top of the. Try out your own values or use our snippet below. Tip: By default, the navbar is 50px high.</p>
+			<a href="#" class="btn btn-danger pull-right">Read More</a>
+		</div>
+	</div>
+	
+</div>
+	
+<!-- Footer -->
+	<div class="navbar navbar-default navbar-fixed-bottom">
+	<div class="container">
+		<p class="navbar-text pull-left">Site by <a href="mailto:pankaj9695@yahoo.com">pankaj9695</a></p>
+		<a href="#" class="navbar-btn btn btn-danger pull-right">Subscribe Now!!</a>
+	</div>
+	
+</div>
+
+<!--Conatct form Modal window-->	
+<div class = "modal fade" id = "contact" role = "dialog">
+                    <div class = "modal-dialog">
+                        <div class = "modal-content">
+                            <div class = "modal-header">
+                                <h4>Contact Maven &amp; Daven Team</h4>
+                            </div>
+                            <div class = "modal-body">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                            </div>
+                            <div class = "modal-footer">
+                        <a class = "btn btn-default" data-dismiss = "modal">Close</a>    
+                                <a class = "btn btn-primary" data-dismiss = "modal">Close</a>
+                            </div>
+                        </div>
+                    </div>
+ </div>
+
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/skrollr.js"></script>
+</body>
+</html>
